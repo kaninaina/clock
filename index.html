@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+ 
+<div class="container">
+   <div class="container-margin">
+    <header>
+        <!-- <div class="nav-bar">
+            <i class="fa-solid fa-bars"></i>
+        </div> -->
+        <h1 id="title">CLOCK</h1>
+        <!-- <div class="nav-content">
+            <ul>
+                <li>
+                    <div class="icon">
+                        <i class="fa-solid fa-hourglass-end"></i>
+                    </div>
+                    <div class="icon-name">
+                        <p>Timer</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="icon">
+                        <i class="fa-solid fa-hourglass-end"></i>
+                    </div>
+                    <div class="icon-name">
+                        <p>Alarm</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="icon">
+                        <i class="fa-light fa-stopwatch"></i>
+                    </div>
+                    <div class="icon-name">
+                        <p>Stop Watch</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="icon">
+                        <i class="fa-solid fa-hourglass-end"></i>
+                    </div>
+                    <div class="icon-name">
+                        <p>World Clock</p>
+                    </div>
+                </li>
+               
+            </ul>
+        </div> -->
+    </header>
+    <div class="space">
+        <div class="clock pge active" data-value="clock">
+
+            <div class="clock-1">
+            <div class="clock-container">
+                <div class="clock-num">
+                    <div class="num1 num">
+                        <p>1</p>
+                    </div>
+                    <div class="num2 num">
+                        <p>2</p>
+                    </div>
+                    <div class="num3 num">
+                        <p>3</p>
+                    </div>
+                    <div class="num4 num">
+                        <p>4</p>
+                    </div>
+                    <div class="num5 num">
+                        <p>5</p>
+                    </div>
+                    <div class="num6 num">
+                        <p>6</p>
+                    </div>
+                    <div class="num7 num">
+                        <p>7</p>
+                    </div>
+                    <div class="num8 num">
+                        <p>8</p>
+                    </div>
+                    <div class="num9 num">
+                        <p>9</p>
+                    </div>
+                    <div class="num10 num">
+                        <p>10</p>
+                    </div>
+                    <div class="num11 num">
+                        <p>11</p>
+                    </div>
+                    <div class="num12 num">
+                        <p>12</p>
+                    </div>
+                    <div class="hour">
+
+                    </div>
+                    <div class="min"></div>
+                    <div class="sec"></div>
+                    <div class="knot"></div>
+                </div>
+                <div class="glass"></div>
+            </div>
+          
+        </div>
+        <div class="worl-country">
+            
+            <div class="clock-add-list">
+            <ul>
+                <li>
+                    <div>
+                        <h3>Abidjan</h3>
+                        <p>5 hr 30 min behind</p>
+                    </div>
+                    <div>
+                        <h1>8:30 <span>AM</span></h1>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <h3>Abidjan</h3>
+                        <p>5 hr 30 min behind</p>
+                    </div>
+                    <div>
+                        <h1>8:30 <span>AM</span></h1>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <h3>Abidjan</h3>
+                        <p>5 hr 30 min behind</p>
+                    </div>
+                    <div>
+                        <h1>8:30 <span>AM</span></h1>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <h3>Abidjan</h3>
+                        <p>5 hr 30 min behind</p>
+                    </div>
+                    <div>
+                        <h1>8:30 <span>AM</span></h1>
+                    </div>
+                </li>
+            </ul>
+
+        </div>
+        </div>
+        <div class="cirl-identity">
+            <i class="fa-solid fa-earth-europe"></i>
+        </div>
+        </div>
+        <div class="timer pge" data-value="timer">
+            <div class="timer-option">
+<div class="timer-flex">
+    <div class="timer-num">
+        <div class="timer-number-count">
+            <div class="timer-hour">
+                <input type="text" value="00" class="timerinput" data-time="hour">
+                <p>h</p>
+            </div>
+            <p>:</p>
+            <div class="timer-hour">
+                <input type="text" value="00" class="timerinput" data-time="min">
+                <p>m</p>
+            </div>
+            <p>:</p>
+            <div class="timer-hour">
+                <input type="text" value="00" class="timerinput" data-time="sec">
+                <p>sec</p>
+            </div>
+        </div>
+        <div class="timer-numbers-button">
+            <button>7</button>
+            <button>8</button>
+            <button>9</button>
+            <button>4</button>
+            <button>5</button>
+            <button>6</button>
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+            <button></button>
+            <button>0</button>
+            <button>X</button>
+        </div>
+    </div>
+    <div class="timer-lib">
+        <!-- <div class="page">
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div> -->
+<div class="timer-lib-flex">
+ 
+
+<ul>
+    <li>
+        <div class="timer-clock">
+            <svg>
+                <circle cx="100" cy="100" r="90"></circle>
+            </svg>
+            <div class="timer-clock-con">
+                <div><input type="text" placeholder="Label"></div>
+                <h1 id="timeShow">36</h1>
+                <p>Reset</p>
+            </div>
+        </div>
+    </li>
+    <!-- <li>
+        <div class="timer-clock">
+            <svg>
+                <circle cx="100" cy="100" r="90"></circle>
+            </svg>
+            <div class="timer-clock-con">
+                <div><input type="text" placeholder="Label"></div>
+                <h1>36</h1>
+                <p>Reset</p>
+            </div>
+        </div>
+    </li> -->
+    <!-- <li>
+        <div class="timer-clock">
+            <svg>
+                <circle cx="100" cy="100" r="90"></circle>
+            </svg>
+            <div class="timer-clock-con">
+                <div><input type="text" placeholder="Label"></div>
+                <h1>36</h1>
+                <p>Reset</p>
+            </div>
+        </div>
+    </li> -->
+    <!-- <li>
+        <div class="timer-clock">
+            <svg>
+                <circle cx="100" cy="100" r="90"></circle>
+            </svg>
+            <div class="timer-clock-con">
+                <div><input type="text" placeholder="Label"></div>
+                <h1>36</h1>
+                <p>Reset</p>
+            </div>
+        </div>
+    </li> -->
+    <!-- <li>
+        <div class="timer-clock">
+            <svg>
+                <circle cx="100" cy="100" r="90"></circle>
+            </svg>
+            <div class="timer-clock-con">
+                <div><input type="text" placeholder="Label"></div>
+                <h1>36</h1>
+                <p>Reset</p>
+            </div>
+        </div>
+    </li> -->
+</ul>
+</div>
+    </div>
+</div>
+            </div>
+            <div class="timer-control">
+<div class="timer-delete delete">
+    <i class="fa-solid fa-trash"></i>
+</div>
+<div class="timer-delete play">
+    <i class="fa-solid fa-play played" name="play"></i>
+    <i class="fa-solid fa-pause paused" name="pause"></i>
+</div>
+<div class="timer-delete move">
+    <i class="fa-regular fa-hourglass-end"></i>
+</div>
+<div class="timer-delete">
+    <i class="fa-solid fa-x"></i>
+</div>
+            </div>
+
+        </div>
+        <div class="stop-watch pge" data-value="stopWatch">
+            <div class="stop-watch-con">
+                <div class="stop-watch-circle">
+                    <svg>
+                        <circle cx="100" cy="90" r="80"></circle>
+                    </svg>
+                    <div class="stop-watch-svg-con">
+                        <p><span>00</span> <span>00</span></p>
+                    </div>
+                </div>
+                <div class="stop-con-2">
+                    <ul>
+                    <li>
+                            <p>Laps</p>
+                            <p>Time</p>
+                            <p>Total</p>
+                        </li>
+                     <!-- <li>
+                            <p>1</p>
+                            <p>0 01.10</p>
+                            <p>0 01.84</p>
+                        </li>
+                        <li>
+                            <p>1</p>
+                            <p>0 01.10</p>
+                            <p>0 01.84</p>
+                        </li>
+                        <li>
+                            <p>1</p>
+                            <p>0 01.10</p>
+                            <p>0 01.84</p>
+                        </li>
+                        <li>
+                            <p>1</p>
+                            <p>0 01.10</p>
+                            <p>0 01.84</p>
+                        </li>
+                        <li>
+                            <p>1</p>
+                            <p>0 01.10</p>
+                            <p>0 01.84</p>
+                        </li>
+                        <li>
+                            <p>1</p>
+                            <p>0 01.10</p>
+                            <p>0 01.84</p>
+                        </li>
+                        <li>
+                            <p>1</p>
+                            <p>0 01.10</p>
+                            <p>0 01.84</p>
+                        </li>
+                        <li>
+                            <p>1</p>
+                            <p>0 01.10</p>
+                            <p>0 01.84</p>
+                        </li>
+                        <li>
+                            <p>1</p>
+                            <p>0 01.10</p>
+                            <p>0 01.84</p>
+                        </li>
+                        <li>
+                            <p>1</p>
+                            <p>0 01.10</p>
+                            <p>0 01.84</p>
+                        </li>
+                        <li>
+                            <p>1</p>
+                            <p>0 01.10</p>
+                            <p>0 01.84</p>
+                        </li>
+                        <li>
+                            <p>1</p>
+                            <p>0 01.10</p>
+                            <p>0 01.84</p>
+                        </li>
+                        <li>
+                            <p>1</p>
+                            <p>0 01.10</p>
+                            <p>0 01.84</p>
+                        </li>
+                        <li>
+                            <p>1</p>
+                            <p>0 01.10</p>
+                            <p>0 01.84</p>
+                        </li>
+                        <li>
+                            <p>1</p>
+                            <p>0 01.10</p>
+                            <p>0 01.84</p>
+                        </li>
+                        <li>
+                            <p>1</p>
+                            <p>0 01.10</p>
+                            <p>0 01.84</p>
+                        </li>
+                        <li>
+                            <p>1</p>
+                            <p>0 01.10</p>
+                            <p>0 01.84</p>
+                        </li>
+                        <li>
+                            <p>1</p>
+                            <p>0 01.10</p>
+                            <p>0 01.84</p>
+                        </li>
+                        <li>
+                            <p>1</p>
+                            <p>0 01.10</p>
+                            <p>0 01.84</p>
+                        </li>
+                        <li>
+                            <p>1</p>
+                            <p>0 01.10</p>
+                            <p>0 01.84</p>
+                        </li>
+                        <li>
+                            <p>1</p>
+                            <p>0 01.10</p>
+                            <p>0 01.84</p>
+                        </li> -->
+                    </ul>
+                </div>
+            </div>
+            <div class="stop-watch-footer">
+                <div class="stop-wtch-reset stop-control">
+                    <i class="fa-solid fa-arrow-rotate-right"></i>
+                </div>
+                <div class="stop-watch-play active stop-control">
+                    <i class="fa-solid fa-play played" name="play"></i>
+                    <i class="fa-solid fa-pause paused" name="pause"></i>
+                </div>
+                <div class="stop-watch-share stop-control">
+                    <i class="fa-solid fa-flag"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+  <div class="footer">
+    <ul>
+        <!-- <li data-target="alarm">
+            <div class="icon">
+                <i class="fa-solid fa-bell"></i>
+            </div>
+            <div class="icon-name">
+<p>Alarm</p>
+            </div>
+        </li> -->
+        <li class="active" data-target="clock">
+            <div class="icon">
+                <i class="fa-solid fa-clock"></i>
+            </div>
+            <div class="icon-name">
+<p>Clock</p>
+            </div>
+        </li>
+        <li data-target="timer">
+            <div class="icon">
+                <i class="fa-solid fa-hourglass-end"></i>
+            </div>
+            <div class="icon-name">
+<p>Timer</p>
+            </div>
+        </li>
+        <li data-target="stopWatch">
+            <div class="icon">
+                <i class="fa-solid fa-stopwatch"></i>
+            </div>
+            <div class="icon-name">
+<p>StopWatch</p>
+            </div>
+        </li>
+    <div class="cir"></div>
+    
+    </ul>
+  </div>
+   </div>
+</div>
+<script src="index.js"></script>
+</body>
+</html>
